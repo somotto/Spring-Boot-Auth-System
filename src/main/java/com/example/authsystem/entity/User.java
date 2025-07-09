@@ -145,14 +145,14 @@ public class User implements UserDetails {
     }
 
     // // Full name using text blocks (JDK 21 feature)
-    // public String getFullName() {
-    //     return STR.
+    public String getFullName() {
+        return STR.
 
     
     
 
-    // "\{firstName} \{lastName}";
-    // }
+    "\{firstName} \{lastName}";
+    }
     
     // Update last login time
     public void updateLastLogin() {
